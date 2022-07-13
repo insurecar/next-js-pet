@@ -5,6 +5,8 @@ import cn from "classnames";
 export const Button = ({
   appearence = "primary",
   children,
+  className,
+  ...props
 }: ButtonProps): JSX.Element => {
   return (
     <button
@@ -12,6 +14,7 @@ export const Button = ({
         [styles.primary]: appearence === "primary",
         [styles.ghost]: appearence === "ghost",
       })}
+      {...props}
     >
       {children}
     </button>
