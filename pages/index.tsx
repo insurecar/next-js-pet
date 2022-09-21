@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Htag, Button, Ptag, Tag } from "../components";
+import { Htag, Button, Ptag, Tag, Rating } from "../components";
 
 
 export default function Home(): JSX.Element {
@@ -23,6 +23,7 @@ export default function Home(): JSX.Element {
       <Tag color='red' size='m'>dfijgurgh</Tag>
       <Tag color='primary' size='s' href='pravda.com.ua'>12sf</Tag>
       <Tag color='green' size='m' href='pravda.com.ua'>12sf</Tag>
+      <Rating rating={3} />
     </>
   );
 }
