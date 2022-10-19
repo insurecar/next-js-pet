@@ -1,0 +1,36 @@
+{
+    "tags": [
+        "adobe photoshop",
+        "графічний дизайн",
+        "комп'ютерна графіка",
+        "веб дизайн"
+    ],
+    "_id": "qwe1",
+    "secondCategory": "Дизайн",
+    "alias": "photoshop",
+    "title": "Курси Photoshop",
+    "category": "Photoshop",
+    "seoText": "",
+    "tagsTitle": "Навики",
+    "metaTitle": "Кращі курси фотошоп",
+    "metaDescription": "Ретинг курси Adobe Photoshop",
+    "firstCategory": 0,
+    "advantages": [
+        {
+            "_id": "qwe11",
+            "title": "",
+            "description": ""
+        }
+    ],
+    "createdAt": "2021-03-28T17:57:10.334Z",
+    "updatedAt": "2021-03-28T17:57:10.334Z",
+    "__v": 0,
+    "hh": {
+        "_id": "qwe2",
+        "count": 13000,
+        "juniorSalary": 35000,
+        "middleSalary": 110000,
+        "seniorSalary": 185000,
+        "updatedAt": "2021-03-28T17:57:10.334Z"
+    }
+}
