@@ -7,7 +7,6 @@ import { MenuItem } from "../interfaces/menu.interfaces";
 
 const Home = ({ menu, firstCategory }: HomeProps): JSX.Element => {
   const [r, setR] = useState<number>(3);
-  console.log(menu);
 
   console.log(process.env.NEXT_PUBLIC_DOMAIN);
   return (
