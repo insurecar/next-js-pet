@@ -5,7 +5,6 @@ export enum TopLevelCategory {
     Products
 }
 
-
 export interface TopPageAdvantage {
     _id: string;
     title: string;

@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { Htag, Button, Ptag, Tag, Rating } from "../components";
+// import { Htag, Button, Ptag, Tag, Rating } from "../components";
+// import { Htag } from "../components/Htag/Htag";
+import { Htag } from "../components";
 import { withLayout } from "../Layout/Layout";
 import { GetStaticProps } from "next";
 import axios from "axios";
@@ -11,23 +13,14 @@ const Home = ({ menu, firstCategory }: HomeProps): JSX.Element => {
   console.log(process.env.NEXT_PUBLIC_DOMAIN);
   return (
     <>
-      <Htag tag="h1">Текст</Htag>
-      <Button appearence="primary" arrow="down">
-        Qwertudihjuthg
-      </Button>
-      <Button appearence="ghost" arrow="right">
-        Qwertu
-      </Button>
-      <Ptag size="l">fiuhyu</Ptag>
-      <Tag color="red" size="m">
-        dfijgurgh
-      </Tag>
-      <Tag color="primary" size="s" href="pravda.com.ua">
-        12sf
-      </Tag>
-      <Tag color="green" size="m" href="pravda.com.ua">
-        12sf
-      </Tag>
+      <Htag tag="h1">cds</Htag>
+      {/* <Htag tag="h1">Текст</Htag>
+      <Button appearence="primary" arrow='down'  >Qwertudihjuthg</Button>
+      <Button appearence="ghost" arrow='right'>Qwertu</Button>
+      <Ptag size='l'>fiuhyu</Ptag>
+      <Tag color='red' size='m'>dfijgurgh</Tag>
+      <Tag color='primary' size='s' href='pravda.com.ua'>12sf</Tag>
+      <Tag color='green' size='m' href='pravda.com.ua'>12sf</Tag>
       <Rating rating={r} isEditable={true} setRating={setR} />
       <ul></ul>
     </>
