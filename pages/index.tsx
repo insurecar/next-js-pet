@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { Htag, Button, Ptag, Tag, Rating } from "../components";
+// import { Htag, Button, Ptag, Tag, Rating } from "../components";
+// import { Htag } from "../components/Htag/Htag";
+import { Htag } from "../components";
 import { withLayout } from "../Layout/Layout";
 import { GetStaticProps } from "next";
 import axios from 'axios';
@@ -14,7 +16,8 @@ const Home = ({ menu, firstCategory }: HomeProps): JSX.Element => {
   console.log(process.env.NEXT_PUBLIC_DOMAIN)
   return (
     <>
-      <Htag tag="h1">Текст</Htag>
+      <Htag tag="h1">cds</Htag>
+      {/* <Htag tag="h1">Текст</Htag>
       <Button appearence="primary" arrow='down'  >Qwertudihjuthg</Button>
       <Button appearence="ghost" arrow='right'>Qwertu</Button>
       <Ptag size='l'>fiuhyu</Ptag>

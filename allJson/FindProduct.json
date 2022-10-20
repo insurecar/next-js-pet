@@ -1,0 +1,47 @@
+[
+    {
+        "_id": "qwer1",
+        "categories": [
+            "Графічний дизайн",
+            "Веб Дизайн",
+            "Photoshop"
+        ],
+        "tags": [
+            "Допомога привлаштуванні на роботу",
+            "Заробіток після 4 місяців",
+            "2 місяці англійсьгкого в подарунок"
+        ],
+        "title": "Професія Графічний дизайнер",
+        "link": "https://skillbox.ru/courses/profession-graphdesigner",
+        "price": 147500,
+        "credit": 5900,
+        "oldPrice": 295000,
+        "description": "Ви дізнаєтесь, як створити фірмовий стиль і розробляти круті логотипи, навчитеся працювати в Illustrator, і Photoshop - та створите свій перший проект",
+        "characteristics": [
+            {
+                "value": "Skillbox",
+                "name": "Школа"
+            },
+            {
+                "value": "Диплом",
+                "name": "Документи про закінчення"
+            },
+            {
+                "value": "З нуля",
+                "name": "Рівень важкості"
+            },
+            {
+                "value": "24 місяця",
+                "name": "Тривалість"
+            }
+        ],
+        "createdAt": "2021-03-23T19:26:27.315Z",
+        "updateddAt": "2021-03-31T19:47:37.796Z",
+        "__v": 0,
+        "image": "/upload/2021-03-23/skillbox.png",
+        "initialRating": 5,
+        "reviews": [],
+        "reviewCount": 0,
+        "reviewAvg": null
+    }
+]

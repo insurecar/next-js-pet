@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { DocumentInitialProps } from "../node_modules/next/document";
+import { DocumentContext } from "next/document";
 
 class MyDocument extends Document {
   static async getInitialProps(
