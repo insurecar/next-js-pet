@@ -30,7 +30,6 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async (props) => {
-  console.log(props);
   const {
     data: [post],
   } = await axios.get(
