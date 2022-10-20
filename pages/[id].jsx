@@ -2,7 +2,6 @@ import React from "react";
 import axios from "axios";
 
 export default function tests({ post }) {
-  console.log(post);
   return (
     <div>
       <p>{post.id}</p>
@@ -16,7 +15,12 @@ export const getStaticPaths = async () => {
   );
 
   const paths = data.map(({ dog, id }) => ({
-    params: { id: dog, test: 2 },
+    params: {
+      id: dog,
+      query: {
+        qw: 1,
+      },
+    },
   }));
 
   return {
@@ -26,8 +30,7 @@ export const getStaticPaths = async () => {
 };
 
 export const getStaticProps = async (props) => {
-  console.log("F__I__R__S__T", props);
-
+  console.log(props);
   const {
     data: [post],
   } = await axios.get(
